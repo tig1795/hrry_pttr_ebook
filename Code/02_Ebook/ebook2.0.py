@@ -288,5 +288,5 @@ if __name__ == "__main__":
 
     root = tk.Tk()
     app = Ebook(root)
-    app.root.title("pyem_1_6")
+    app.root.title("HP_Ebook")
     root.mainloop()

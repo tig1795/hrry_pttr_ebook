@@ -1,27 +1,9 @@
-# aggiunto ctrl+p per visualizza la singola pagina html generata
-# (si poteva fare col pulsante save page)
-# pyem2 - correct bug about renaming files
-# pyem2b - added at 196 and commented 195 (because of can't find filename)
-# self.filename = self.lstb.get(index)
-# version 1.5 - added menubar
-# version 1.6 - added highlight function to higlight code
-# if a line starts with ">"... so if there is >>> ...
+
 import tkinter as tk
 import glob
 import os
 import re
 from keyword import kwlist
-
-"""
-1.2
-Added ctrl+s <Control+s> to bind of text
-Added label to editor
-1.3
-added red symbol for rendering html
-1.4
-Added way to save render single txt file
-"""
-
 
 class Ebook:
 
@@ -134,7 +116,7 @@ class Ebook:
         os.startfile("ebook.html")
 
     def save_page(self):
-        """Save a single page v. 1.4 23/09/2019 at 05:40"""
+        """Save a single page"""
         self.save()
         html = ""
         current = self.lstb.get(tk.ACTIVE)[:-4]  # The file selected without .txt

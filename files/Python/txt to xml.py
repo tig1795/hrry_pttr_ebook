@@ -60,10 +60,30 @@ def speakers(segments):
     names = []
     for segment in segments:
         names.append(segment[0])
-    name = set(names)
-    print(name)
+    names = set(names)
     return names
 """
+
+def write_xml(xmlfile, header, segments):
+    info = ["editor"]
+    with open(xmlfile, "w", encoding='UTF-8') as f:
+        f.write("<?xml version='1.0' encoding='UTF-8' standalone='no' ?>")
+        f.write("<body>\n")
+        f.write("<header>\n")
+        f.write("<docinfo>\n")
+        x=0
+        for data in header[0]:
+            f.write(f"{data}\n")
+        f.write("</docinfo>\n")
+        for data in header[1:]:
+            f.write(f"<{info[x]}>{data}</{info[x]}>\n")
+            x=x+1
+        f.write("</header>\n")
+        f.write("<transcript>\n")
+        for segment in segments[1:]:
+            f.write(f"<segment>{segment}</segment>\n")
+        f.write("</transcript>\n")
+        f.write("</body>\n")
 
 transcript = open_transcript(filename)
 transcript = clean_transcript(transcript)
@@ -73,4 +93,4 @@ segments = transcript_separate(transcript)
 segments = clean_segments(segments)
 #segments = segment_metadata(segments)
 #speakers = speakers(segments)
-print(segments)
+write_xml("HarryPotter1.xml", header, segments)

@@ -2,19 +2,43 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title></title>
-            </titleStmt>
-            <publicationStmt>
-                <authority></authority>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier></msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
+    <fileDesc>
+        <titleStmt>
+            <title>Harry Potter und der Stein der Weisen</title>
+            <author>Joanne K. Rowling</author>
+            <editor>Timo Günther</editor>
+        <respStmt>
+            <resp>Originaltitel:</resp>
+            <name>Harry Potter and the Philosopher’s Stone</name>
+        </respStmt>
+        <respStmt>
+            <resp>Aus dem Englischen von</resp>
+            <name>Klaus Fritz</name>
+        </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>Carlsen Verlag GmbH</publisher>
+            <date>1998</date>
+            <idno type="ISBN">978-1-78110-055-4</idno>
+            <availability>
+                <p>Originalcopyright © J.K. Rowling 1997</p>
+                <p>Copyright für die Deutsche Ausgabe © Carlsen Verlag GmbH 1998</p>
+                <p>Harry Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.</p>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository></repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Diese Digitale Edition wurde 2012 zum ersten Mal von Pottermore Limited veröffentlicht</p>
+        </projectDesc>
+    </encodingDesc>
     </teiHeader>
     <text>
                 <front>
@@ -24,33 +48,12 @@
                         <lb n="3"/>Anne mochte sie einst,
                         <lb n="4"/>und Di hörte diese Geschichte zuerst</p>
                     </div>
-                    <div type="content">
-                        <head>INHALT</head>
-                        <list>
-                            <item>Ein Junge überlebt</item>
-                            <item>Ein Fenster verschwindet</item>
-                            <item>Briefe von niemandem</item>
-                            <item>Der Hüter der Schlüssel</item>
-                            <item>In der Winkelgasse</item>
-                            <item>Abreise von Gleis neundreiviertel</item>
-                            <item>Der Sprechende Hut</item>
-                            <item>Der Meister der Zaubertränke</item>
-                            <item>Duell um Mitternacht</item>
-                            <item>Halloween</item>
-                            <item>Quidditch</item>
-                            <item>Der Spiegel Nerhegeb</item>
-                            <item>Nicolas Flamel</item>
-                            <item>Norbert, der Norwegische Stachelbuckel</item>
-                            <item>Der verbotene Wald</item>
-                            <item>Durch die Falltür</item>
-                            <item>Der Mann mit den zwei Gesichtern</item>
-                        </list>
-                    </div>
                 </front>
         <body>
-            <div type="book">
-                <div n="1">
+            
+<div n="1">
                     <head>Ein Junge überlebt</head>
+
 <p>
 <lb n="1"/>Mr und Mrs Dursley im Ligusterweg Nummer 4 waren stolz darauf, ganz und gar normal zu sein, sehr stolz sogar. Niemand wäre auf die Idee gekommen, sie könnten sich in eine merkwürdige und geheimnisvolle Geschichte verstricken, denn mit solchem Unsinn wollten sie nichts zu tun haben.
 <lb n="2"/>Mr Dursley war Direktor einer Firma namens Grunnings, die Bohrmaschinen herstellte. Er war groß und bullig und hatte fast keinen Hals, dafür aber einen sehr großen Schnurrbart. Mrs Dursley war dünn und blond und besaß doppelt so viel Hals, wie notwendig gewesen wäre, was allerdings sehr nützlich war, denn so konnte sie den Hals über den Gartenzaun recken und zu den Nachbarn hinüberspähen. Die Dursleys hatten einen kleinen Sohn namens Dudley und in ihren Augen gab es nirgendwo einen prächtigeren Jungen.
@@ -270,12 +273,11 @@
 <lb/>Als Harry noch jünger gewesen war, hatte er immer und immer wieder von einem unbekannten Verwandten geträumt, der kommen und ihn mitnehmen würde, aber das war nie Wirklichkeit geworden; die Dursleys waren alles, was er noch an Familie hatte. Doch manchmal hatte er den Eindruck (oder vielleicht die Hoffnung), dass Unbekannte auf der Straße ihn zu kennen schienen. Sehr merkwürdige Unbekannte waren das übrigens. Einmal, als er mit Tante Petunia und Dudley beim Einkaufen war, hatte sich ein kleiner Mann mit einem violetten Zylinder vor ihm verneigt. Tante Petunia fragte Harry ganz entsetzt, ob er den Mann kenne, und schubste ihn und Dudley hastig aus dem Laden, ohne etwas zu kaufen. Ein andermal hatte ihm eine wild aussehende, ganz in Grün gekleidete alte Frau im Bus fröhlich zugewinkt. Und ein glatzköpfiger Mann mit einem sehr langen, purpurnen Umhang hatte ihm doch tatsächlich mitten auf der Straße die Hand geschüttelt und war dann, ohne ein Wort zu sagen, weitergegangen. Das Seltsamste an all diesen Leuten war, dass sie zu verschwinden schienen, wenn Harry versuchte sie genauer anzusehen.
 <lb/>In der Schule hatte Harry niemanden. Jeder wusste, dass Dudleys Bande diesen komischen Harry Potter mit seinen ausgebeulten alten Klamotten und seiner zerbrochenen Brille nicht ausstehen konnte, und niemand mochte Dudleys Bande in die Quere kommen. 
 </p>
-</div>    
+</div>
  
 <div n="3">
     <head>Briefe von niemandem</head>
 <p>
-<lb/>
 <lb/>Die Flucht der brasilianischen Boa constrictor hatte Harry die bisher längste Strafe eingebracht. Als er den Schrank wieder verlassen durfte, hatten die Sommerferien begonnen. Dudley hatte seine neue Videokamera schon längst zertrümmert und sein ferngesteuertes Flugzeug zu Bruch geflogen. Bei seiner ersten Fahrt mit dem Rennrad hatte er die alte Mrs Figg, die gerade, auf ihre Krücken gestützt, den Ligusterweg überquerte, über den Haufen geradelt.
 <lb/>Harry war froh, dass die Schule zu Ende war, doch Dudleys Bande, die das Haus Tag für Tag heimsuchte, konnte er nicht entkommen. Piers, Dennis, Malcolm und Gordon waren allesamt groß und dumm, doch weil Dudley der Größte und Dümmste von allen war, war er ihr Anführer. Die andern schlossen sich mit ausgesprochenem Vergnügen Dudleys Lieblingssport an: Harry jagen.
 <lb/>Deshalb verbrachte Harry möglichst viel Zeit außer Haus und wanderte durch die Straßen. Das baldige Ende der Ferien war ein kleiner Hoffnungsschimmer. Im September würde er auf die höhere Schule kommen und zum ersten Mal im Leben nicht mehr mit Dudley zusammen sein. Dudley hatte einen Platz an Onkel Vernons alter Schule, Smeltings. Auch Piers Polkiss ging dorthin. Harry dagegen kam in die Stonewall High School, die Gesamtschule in der Nachbarschaft. Dudley fand das sehr lustig.
@@ -409,9 +411,10 @@
 <lb/>Die ganze Hütte erzitterte. Mit einem Mal saß Harry kerzengerade da und starrte auf die Tür. Da draußen war jemand und klopfte. 
 </p>
 </div>
+
                 
 <div n="4">
-<head>Der Hüter der Schlüssel</head>
+            <head>Der Hüter der Schlüssel</head>
 <p>
 <lb/>BUMM. Wieder klopfte es. Dudley schreckte aus dem Schlaf.
 <lb/>»Wo ist die Kanone?«, sagte er dumpf.
@@ -2989,9 +2992,9 @@
 <lb/>Jemand war schon da – doch es war nicht Snape. Es war auch nicht Voldemort. 
 </p>
 </div>
-                
-<div n="17">                
-                <head>Der Mann mit den zwei Gesichtern</head>
+  
+<div n="17">
+   <head>Der Mann mit den zwei Gesichtern</head>
 <p>
 <lb/>
 <lb/>Es war Quirrell.
@@ -3222,7 +3225,7 @@
 <lb/>»Oh, ganz bestimmt«, sagte Harry, und sie waren überrascht, dass sich ein verschmitztes Lächeln über sein Gesicht breitete. »Die wissen ja nicht, dass wir zu Hause nicht zaubern dürfen. Ich werde diesen Sommer viel Spaß haben mit Dudley …«
 </p>
 </div>
-            </div>
+
         </body>
 <back>
     
@@ -3420,7 +3423,7 @@
 <lb/><p>shop.pottermore.com von J.K. Rowling</p> 
 </div>
        </div>
-     </div>
+      </div>
     </back>
  </text>
 </TEI>

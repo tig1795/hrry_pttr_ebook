@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><persName>Harry</persName> Potter und der Stein der Weisen</title>
+                <author>Joanne K. Rowling</author>
+                <editor>Timo Günther</editor>
+                <respStmt>
+                    <resp>Originaltitel:</resp>
+                    <name><persName>Harry</persName> Potter and the Philosopher’s Stone</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Aus dem Englischen von</resp>
+                    <name>Klaus Fritz</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Carlsen Verlag GmbH</publisher>
+                <date>1998</date>
+                <idno type="ISBN">978-1-78110-055-4</idno>
+                <availability>
+                    <p>Originalcopyright © J.K. Rowling 1997</p>
+                    <p>Copyright für die Deutsche Ausgabe © Carlsen Verlag GmbH 1998</p>
+                    <p><persName>Harry</persName> Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Diese Digitale Edition wurde 2012 zum ersten Mal von Pottermore Limited veröffentlicht</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <listPerson type="fictional">
+                    <person xml:id="P_01">
+                       <lb/><persName><roleName>Mr</roleName> Dursley</persName>
+                       <lb/><persName>Onkel Vernon</persName>
+                       <lb/><persName>Vernon Dursley</persName>
+                       <lb/><occupation>Direktor von Grunnings</occupation>
+                       <lb/><sex value="1">männlich</sex>
+                       <lb/><note>Harry's Onkel</note>
+                       <lb/>
+                    </person>
+                    <person xml:id="P_02">
+                        <lb/>
+                        <lb/><persName><roleName>Mrs</roleName>Dursley</persName>
+                        <lb/><persName>Tante Petunia</persName>
+                        <lb/><occupation>Hausfrau und Mutter</occupation>
+                        <lb/><sex value="2">weiblich</sex>
+                        <lb/><note>Harry's Tante</note>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_03">
+                        <lb/>
+                        <lb/><persName>Dudley Dursley</persName>
+                        <lb/><persName>Dudley</persName>
+                        <lb/><occupation>Schüler</occupation>
+                        <lb/><sex value="1">männlich</sex>
+                        <lb/><note>Harry's Cousin</note>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_04">
+                        <lb/>
+                        <lb/><persName>Harry Potter</persName>
+                        <lb/><persName>Harry</persName>
+                        <lb/><birth>31.07.1980</birth>
+                        <lb/><occupation>Schüler und Hauptfigur</occupation>
+                        <lb/><sex value="1">männlich</sex>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_05">
+                        <lb/>
+                        <lb/><persName>Rubeus Hagrid</persName>
+                        <lb/><persName>Hagrid</persName>
+                        <lb/><birth>06.12.1928</birth>
+                        <lb/><occupation>Hüter der Schlüssel und Ländereien von Hogwarts</occupation>
+                        <lb/><sex value="1">männlich</sex>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_06">
+                        <lb/>
+                        <lb/><persName>Ron Weasley</persName>
+                        <lb/><persName>Ron</persName>
+                        <lb/><birth>01.03.1980</birth>
+                        <lb/><occupation>Schüler und bester Freund von Harry Potter</occupation>
+                        <lb/><sex value="1">männlich</sex>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_07">
+                        <lb/>
+                        <lb/><persName>Hermine Granger</persName>
+                        <lb/><persName>Hermine</persName>
+                        <lb/><birth>19.09.1979</birth>
+                        <lb/><occupation>Schülerin und beste Freundin von Harry Potter</occupation>
+                        <lb/><sex value="2">weiblich</sex>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_08">
+                        <lb/>
+                        <lb/><persName>Albus Dumbledore</persName>
+                        <lb/><persName>Dumbledore</persName>
+                        <lb/><persName>Professor Dumbledore</persName>
+                        <lb/><birth>August 1881</birth>
+                        <lb/><death>30.06.1997</death>
+                        <lb/><occupation>Schulleiter der Hogwarts-Schule für Hexerei und Zauberei</occupation>
+                        <lb/><sex value="1">männlich</sex>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_09">
+                        <lb/>
+                        <lb/><persName>Minerva McGonagall</persName>
+                        <lb/><persName>McGonagall</persName>
+                        <lb/><persName>Professor McGonagall</persName>
+                        <lb/><birth>04.10.1935</birth>
+                        <lb/><occupation>Stellvertretende Schulleiterin und Hauslehrerin von Gryffindor an der Hogwarts-Schule für Hexerei und Zauberei</occupation>
+                        <lb/><sex value="2">weiblich</sex>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_10">
+                        <lb/>
+                        <lb/><persName>Severus Snape</persName>
+                        <lb/><persName>Snape</persName>
+                        <lb/><persName>Professor Snape</persName>
+                        <lb/><birth>09.01.1960</birth>
+                        <lb/><occupation>Lehrer für Zaubertränke und Hauslehrer von Slytherin an der Hogwarts-Schule für Hexerei und Zauberei</occupation>
+                        <lb/><sex value="1">männlich</sex>
+                        <lb/>
+                    </person>
+                    <person xml:id="P_11">
+                        <lb/>
+                        <lb/><persName>Lord Voldemort</persName>
+                        <lb/><persName>Voldemort</persName>
+                        <lb/><persName>Du-weißt-schon-wer</persName>
+                        <lb/><birth>31.12.1926</birth>
+                        <lb/><occupation>Dunkelster Zauberer aller Zeiten</occupation>
+                        <lb/><sex value="1">männlich</sex>
+                        <lb/>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="PN_01">
+                        <placeName type="City">Little Whinging</placeName>
+                        <country>England</country>
+                    </place>
+                    <place xml:id="PN_02">
+                        <placeName type="County">Surrey</placeName>
+                        <country>England</country>
+                    </place>
+                    <place xml:id="PN_03">
+                        <placeName type="City">London</placeName>
+                        <country>England</country>
+                    </place>                    
+                </listPlace>
+                <listOrg>
+                    <org xml:id="ON_01">
+                        <orgName type="Hotel">Hogwarts</orgName>
+                        <placeName type="City">Dufftown</placeName>
+                        <country>Schottland</country>
+                    </org>
+                    
+                    <org xml:id="ON_02">
+                        <orgName type="company">Grunnings</orgName>
+                        <placeName type="County">Surrey</placeName>
+                        <country>England</country>
+                    </org>
+                </listOrg>
+            </p>      
+        </body>
+    </text>
+</TEI>
+

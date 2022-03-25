@@ -4,12 +4,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><persName>Harry</persName> Potter und der Stein der Weisen</title>
+                <title>Harry Potter und der Stein der Weisen</title>
                 <author>Joanne K. Rowling</author>
                 <editor>Timo Günther</editor>
                 <respStmt>
                     <resp>Originaltitel:</resp>
-                    <name><persName>Harry</persName> Potter and the Philosopher’s Stone</name>
+                    <name>Harry Potter and the Philosopher’s Stone</name>
                 </respStmt>
                 <respStmt>
                     <resp>Aus dem Englischen von</resp>
@@ -23,7 +23,7 @@
                 <availability>
                     <p>Originalcopyright © J.K. Rowling 1997</p>
                     <p>Copyright für die Deutsche Ausgabe © Carlsen Verlag GmbH 1998</p>
-                    <p><persName>Harry</persName> Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.</p>
+                    <p>Harry Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -36,7 +36,9 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Diese Digitale Edition wurde 2012 zum ersten Mal von Pottermore Limited veröffentlicht</p>
+                <p>Diese Digitale Edition wurde im Rahmen des Seminars XML-Daten aufbereitet an der Julius-Maximilians Universiät Würzburg erstellt. 
+                    Es wurde der Text aus dem Buch Harry Potter und der Stein der Weisen von J.K. Rowling verwendet und wird nicht zu kommerziellen Zwecken 
+                    veröffentlicht werden.</p>
             </projectDesc>
         </encodingDesc>
     </teiHeader>
@@ -165,7 +167,7 @@
                 </listPlace>
                 <listOrg>
                     <org xml:id="ON_01">
-                        <orgName type="Hotel">Hogwarts</orgName>
+                        <orgName type="school">Hogwarts</orgName>
                         <placeName type="City">Dufftown</placeName>
                         <country>Schottland</country>
                     </org>

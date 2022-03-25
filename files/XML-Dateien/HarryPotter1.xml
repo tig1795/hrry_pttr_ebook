@@ -4,12 +4,12 @@
 <teiHeader>
     <fileDesc>
         <titleStmt>
-            <title><persName>Harry</persName> Potter und der Stein der Weisen</title>
+            <title>Harry Potter und der Stein der Weisen</title>
             <author>Joanne K. Rowling</author>
             <editor>Timo Günther</editor>
         <respStmt>
             <resp>Originaltitel:</resp>
-            <name><persName>Harry</persName> Potter and the Philosopher’s Stone</name>
+            <name>Harry Potter and the Philosopher’s Stone</name>
         </respStmt>
         <respStmt>
             <resp>Aus dem Englischen von</resp>
@@ -23,7 +23,7 @@
             <availability>
                 <p>Originalcopyright © J.K. Rowling 1997</p>
                 <p>Copyright für die Deutsche Ausgabe © Carlsen Verlag GmbH 1998</p>
-                <p><persName>Harry</persName> Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.</p>
+                <p>Harry Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.</p>
             </availability>
         </publicationStmt>
         <sourceDesc>
@@ -36,7 +36,9 @@
     </fileDesc>
     <encodingDesc>
         <projectDesc>
-            <p>Diese Digitale Edition wurde 2012 zum ersten Mal von Pottermore Limited veröffentlicht</p>
+            <p>Diese Digitale Edition wurde im Rahmen des Seminars XML-Daten aufbereitet an der Julius-Maximilians Universiät Würzburg erstellt. 
+                Es wurde der Text aus dem Buch Harry Potter und der Stein der Weisen von J.K. Rowling verwendet und wird nicht zu kommerziellen Zwecken 
+                veröffentlicht werden.</p>
         </projectDesc>
     </encodingDesc>
     </teiHeader>
@@ -44,10 +46,10 @@
                 <front>
                     <div type="dedications">
                         <p>
-                        <lb n="1"/>Für Jessica, für Anne und fü Di;
-                        <lb n="2"/>Jessica mag Geschichten
-                        <lb n="3"/>Anne mochte sie einst,
-                        <lb n="4"/>und Di hörte diese Geschichte zuerst
+                        <lb/>Für Jessica, für Anne und fü Di;
+                        <lb/>Jessica mag Geschichten
+                        <lb/>Anne mochte sie einst,
+                        <lb/>und Di hörte diese Geschichte zuerst
                         </p>
                     </div>
                 </front>
@@ -57,8 +59,8 @@
                     <head>Ein Junge überlebt</head>
 
 <p>
-<lb n="1"/>Mr und <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref> im Ligusterweg Nummer 4 waren stolz darauf, ganz und gar normal zu sein, sehr stolz sogar. Niemand wäre auf die Idee gekommen, sie könnten sich in eine merkwürdige und geheimnisvolle Geschichte verstricken, denn mit solchem Unsinn wollten sie nichts zu tun haben.
-<lb n="2"/><ref type="Register_HP.xml#P_01"><persName>Mr Dursley</persName></ref> war Direktor einer Firma namens <ref type="Register_HP.xml#ON_02"><orgName>Grunnings</orgName></ref>, die Bohrmaschinen herstellte. Er war groß und bullig und hatte fast keinen Hals, dafür aber einen sehr großen Schnurrbart. <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref> war dünn und blond und besaß doppelt so viel Hals, wie notwendig gewesen wäre, was allerdings sehr nützlich war, denn so konnte sie den Hals über den Gartenzaun recken und zu den Nachbarn hinüberspähen. Die Dursleys hatten einen kleinen Sohn namens <ref type="Register_HP.xml#P_03"><persName>Dudley</persName></ref> und in ihren Augen gab es nirgendwo einen prächtigeren Jungen.
+<lb/>Mr und <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref> im Ligusterweg Nummer 4 waren stolz darauf, ganz und gar normal zu sein, sehr stolz sogar. Niemand wäre auf die Idee gekommen, sie könnten sich in eine merkwürdige und geheimnisvolle Geschichte verstricken, denn mit solchem Unsinn wollten sie nichts zu tun haben.
+<lb/><ref type="Register_HP.xml#P_01"><persName>Mr Dursley</persName></ref> war Direktor einer Firma namens <ref type="Register_HP.xml#ON_02"><orgName>Grunnings</orgName></ref>, die Bohrmaschinen herstellte. Er war groß und bullig und hatte fast keinen Hals, dafür aber einen sehr großen Schnurrbart. <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref> war dünn und blond und besaß doppelt so viel Hals, wie notwendig gewesen wäre, was allerdings sehr nützlich war, denn so konnte sie den Hals über den Gartenzaun recken und zu den Nachbarn hinüberspähen. Die Dursleys hatten einen kleinen Sohn namens <ref type="Register_HP.xml#P_03"><persName>Dudley</persName></ref> und in ihren Augen gab es nirgendwo einen prächtigeren Jungen.
 <lb/>Die Dursleys besaßen alles, was sie wollten, doch sie hatten auch ein Geheimnis, und dass es jemand aufdecken könnte, war ihre größte Sorge. Einfach unerträglich wäre es, wenn die Sache mit den Potters herauskommen würde. Mrs Potter war die Schwester von <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref>; doch die beiden hatten sich schon seit etlichen Jahren nicht mehr gesehen. <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref> behauptete sogar, dass sie gar keine Schwester hätte, denn diese und deren Nichtsnutz von einem Mann waren so undursleyhaft, wie man es sich nur denken konnte. Die Dursleys schauderten beim Gedanken daran, was die Nachbarn sagen würden, sollten die Potters eines Tages in ihrer Straße aufkreuzen. Die Dursleys wussten, dass auch die Potters einen kleinen Sohn hatten, doch den hatten sie nie gesehen. Auch dieser Junge war ein guter Grund, sich von den Potters fernzuhalten; mit einem solchen Kind sollte ihr <ref type="Register_HP.xml#P_03"><persName>Dudley</persName></ref> nicht in Berührung kommen.
 <lb/>Als Mr und <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref> an dem trüben und grauen Dienstag, an dem unsere Geschichte beginnt, die Augen aufschlugen, war an dem wolkenverhangenen Himmel draußen kein Vorzeichen der merkwürdigen und geheimnisvollen Dinge zu erkennen, die bald überall im Land geschehen sollten. <ref type="Register_HP.xml#P_01"><persName>Mr Dursley</persName></ref> summte vor sich hin und suchte sich für die Arbeit seine langweiligste Krawatte aus, und <ref type="Register_HP.xml#P_02"><persName>Mrs Dursley</persName></ref> schwatzte munter vor sich hin, während sie mit dem schreienden <ref type="Register_HP.xml#P_03"><persName>Dudley</persName></ref> rangelte und ihn in seinen Hochstuhl zwängte.
 <lb/>Keiner von ihnen sah den riesigen Waldkauz am Fenster vorbeifliegen.
@@ -3234,17 +3236,17 @@
         </body>
 <back>
     
-    <head>Alles über <ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> : </head>
+    <head>Alles über Harry Potter : </head>
     
 <div type="books">
 <list>
-<lb/><item><ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> und der Stein der Weisen</item>
-<lb/><item><ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> und die Kammer des Schreckens</item>
-<lb/><item><ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> und der Gefangene von Askaban</item>
-<lb/><item><ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> und der Feuerkelch</item>
-<lb/><item><ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> und der Orden des Phönix</item>
-<lb/><item><ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> und der Halbblutprinz</item>
-<lb/><item><ref type="Register_HP.xml#P_04"><persName>Harry Potter</persName></ref> und die Heiligtümer des Todes</item>
+<lb/><item>Harry Potter und der Stein der Weisen</item>
+<lb/><item>Harry Potter und die Kammer des Schreckens</item>
+<lb/><item>Harry Potter und der Gefangene von Askaban</item>
+<lb/><item>Harry Potter und der Feuerkelch</item>
+<lb/><item>Harry Potter und der Orden des Phönix</item>
+<lb/><item>Harry Potter und der Halbblutprinz</item>
+<lb/><item>Harry Potterund die Heiligtümer des Todes</item>
 </list>
     
 <div type="background">
@@ -3262,11 +3264,11 @@
     
 <p>
     
-<lb/>Lies das erste Kapitel des nächsten Buches in der <ref type="Register_HP.xml#P_04"><persName>Harry</persName></ref> Potter Reihe... 
+<lb/>Lies das erste Kapitel des nächsten Buches in der Harry Potter Reihe... 
 <lb/>Joanne K. Rowling 
-<lb/><ref type="Register_HP.xml#P_04"><persName>Harry</persName></ref> POTTER und die Kammer des Schreckens
+<lb/>Harry POTTER und die Kammer des Schreckens
 <lb/>Aus dem Englischen von Klaus Fritz 
-<lb/>Originaltitel: <ref type="Register_HP.xml#P_04"><persName>Harry</persName></ref> Potter and the Chamber of Secrets
+<lb/>Originaltitel: Harry Potter and the Chamber of Secrets
 
 <lb/>Aus dem Englischen von Klaus Fritz
 <lb/>Umschlagbild: Sabine Wilharm
@@ -3279,12 +3281,12 @@
 <lb/>Originalcopyright © J.K. Rowling 1998
 <lb/>Copyright für die Deutsche Ausgabe © Carlsen Verlag GmbH 1999
 
-<lb/><ref type="Register_HP.xml#P_04"><persName>Harry</persName></ref> Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.
+<lb/>Harry Potter characters, names and related indicia are trademarks of and © Warner Bros. Ent.
 
 <lb/><idno type="ISBN">ISBN 978-1-78110-056-1</idno>
 <lb/>
 <lb/>www.pottermore.com von J.K.
-<lb/>Rowling Das einzigartige online Erlebnis rund um die <ref type="Register_HP.xml#P_04"><persName>Harry</persName></ref>-Potter-Bücher. 
+<lb/>Rowling Das einzigartige online Erlebnis rund um die Harry-Potter-Bücher. 
 <lb/>Teile und nimm teil an den Geschichten, präsentiere deine eigene Potter-bezogene Kreativität und entdecke zusätzliche Informationen über die Welt von <ref type="Register_HP.xml#P_04"><persName>Harry</persName></ref> Potter von der Autorin höchstpersönlich.
 
 <lb/>Besuchen Sie pottermore.com 

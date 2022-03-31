@@ -5,7 +5,7 @@ In diesem Repository wurde das Buch "Harry Potter und der Stein der Weisen" von 
 Das Repository ist wie folgt aufgebaut:
     
 
-files
+- files
     EPUB
       HarryPotter und der Stein der Weisen.epub
     Python

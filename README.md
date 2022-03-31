@@ -4,15 +4,15 @@ In diesem Repository wurde das Buch "Harry Potter und der Stein der Weisen" von 
 
 Das Repository ist wie folgt aufgebaut:
 
-files
-  EPUB
-    HarryPotter und der Stein der Weisen.epub
-  Python
-    txt to xml.py
-  XML-Dateien
-    HarryPotter1.xml
-    Register_HP.xml
-README.md
-  text
-    01_Harry Potter und der Stein der Weisen.txt
+  files
+    EPUB
+      HarryPotter und der Stein der Weisen.epub
+    Python
+      txt to xml.py
+    XML-Dateien
+      HarryPotter1.xml
+      Register_HP.xml
+  README.md
+    text
+      01_Harry Potter und der Stein der Weisen.txt
     
